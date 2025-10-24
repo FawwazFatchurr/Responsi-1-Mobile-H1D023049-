@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_history">
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.unsoed.responsi1mobileh1d023049.ui.fragments.HistoryFragment"
+        android:label="Club History"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/navigation_coach"
+        android:name="com.unsoed.responsi1mobileh1d023049.ui.fragments.CoachFragment"
+        android:label="Head Coach"
+        tools:layout="@layout/fragment_coach" />
+    <fragment
+        android:id="@+id/navigation_squad"
+        android:name="com.unsoed.responsi1mobileh1d023049.ui.fragments.TeamSquadFragment"
+        android:label="Team Squad"
+        tools:layout="@layout/fragment_team_squad" />
+</navigation>
